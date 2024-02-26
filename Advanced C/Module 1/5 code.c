@@ -39,7 +39,7 @@ int main(){
             	res[i][j] += matrix1[i][k] * matrix2[k][j];
             }
         }
-    }
+    	}
     
     printf("\nThe resultant Matrix is: \n");
 	for(i=0;i<n;i++){
@@ -48,6 +48,16 @@ int main(){
 		}
 		printf("\n");
 	}
+
+	for (i = 0; i < n; i++) {
+        free(matrix1[i]);
+        free(matrix2[i]);
+        free(res[i]);
+        }
+    
+	free(matrix1);
+    	free(matrix2);
+    	free(res);
 	
 	return 0;
 }
