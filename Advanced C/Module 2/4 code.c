@@ -1,0 +1,5 @@
+enqueue()
+dequeue()
+isempty()
+isfull()
+peak()
