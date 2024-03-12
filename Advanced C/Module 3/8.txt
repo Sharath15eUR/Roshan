@@ -1,0 +1,9 @@
+Process:
+1. A process is an instance of a program that is being executed or processed.
+2. A process executes a particular task.
+3. Processes are independent of each other and hence don't share a memory or other resources.
+
+Thread:
+1. Thread is a segment of a process or a lightweight process that is managed by the scheduler independently.
+2. A single or multiple thread(s) together execute a process.
+3. Threads are interdependent and share memory and other resources.

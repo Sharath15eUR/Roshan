@@ -1,0 +1,8 @@
+fork():
+1. creates a new process which is a replica of called process
+2. both, the parent and the child process exist during runtime.
+3. address space and variables are copied to the child process.
+exec():
+1. loads new process by replacing the old process
+2. the called process terminates and only the newly formed process exists.
+3. the address space and variables of the parent process are substituted by the child process.
