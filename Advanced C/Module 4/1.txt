@@ -1,0 +1,18 @@
+Connection procedure in Server:
+
+1. Socket Creation - Create the socket to facilitate communication.
+2. Binding - Binds the socket to address and port number
+3. Listen - Waits for the client to make a connection
+4. Accept - Establishes the socket connection.
+5. Close - To terminate the socket connection.
+
+Connection procedure in Client:
+
+1. Socket Creation - Similar to the Server-side part.
+2. Connect - Requests the Server to set up a connection, which is accepted by the client.
+3. Close - Similar to Server-side part.
+
+Communication is facilitated by:
+
+1. Read()
+2. Write()

@@ -1,0 +1,3 @@
+Bind():
+
+The bind() is used to bind the particular socket created using the socket(), to a particular address and port number. The server-side socket can then be identified by that assigned address and port number.
